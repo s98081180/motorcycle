@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.appfinalproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="btnmotopage1" android:name=".btnmotopage1"/>
+        <activity android:label="btnoilpage1" android:name=".btnoilpage1"/>
+        <activity android:label="btnfixpage1" android:name=".btnfixpage1"/>
+        <activity android:label="btndatapage1" android:name=".btndatapage1"/>
+        <activity android:name=".btnmotoinsertpage1" android:label="btnmotoinsertpage1"/>
+        <activity android:name=".btnfixinsertpage1" android:label="btnfixinsertpage1"/>
+        <activity android:name=".btnoilinsertpage1" android:label="btnoilinsertpage1"/>
+        <activity android:name=".btnmotoshowpage1" android:label="btnmotoshowpage1"/>
+        <activity android:name=".btnfixshowpage1" android:label="btnfixshowpage1"/>
+        <activity android:name=".btnoilshowpage1" android:label="btnoilshowpage1"/>
+        <activity android:name=".btndatashowpage1" android:label="btndatashowpage1"/>
+
+
+
+    </application>
+
+</manifest>
